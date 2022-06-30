@@ -1,0 +1,5 @@
+C:\Users\Aysegul\source\repos\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.exe
+C:\Users\Aysegul\source\repos\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.dll
+C:\Users\Aysegul\source\repos\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.deps.json
+C:\Users\Aysegul\source\repos\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.runtimeconfig.json
+C:\Users\Aysegul\source\repos\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.pdb

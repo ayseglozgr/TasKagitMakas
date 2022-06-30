@@ -154,9 +154,10 @@ namespace WinFormsApp1
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.Location = new System.Drawing.Point(133, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(83, 37);
+            this.label3.Size = new System.Drawing.Size(39, 37);
             this.label3.TabIndex = 8;
-            this.label3.Text = "label3";
+            this.label3.Text = "??";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button7
             // 

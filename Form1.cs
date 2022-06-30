@@ -23,7 +23,7 @@ namespace WinFormsApp1
         string text2 = "kaybettiniz.";
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            // comment deneme
         }
 
         private void button1_Click(object sender, EventArgs e)

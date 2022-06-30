@@ -143,7 +143,7 @@ namespace WinFormsApp1
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(151, 213);
+            this.label3.Location = new System.Drawing.Point(151, 215);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 37);
             this.label3.TabIndex = 8;
@@ -151,18 +151,21 @@ namespace WinFormsApp1
             // 
             // button7
             // 
-            this.button7.Location = new System.Drawing.Point(332, 205);
+            this.button7.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button7.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button7.Location = new System.Drawing.Point(307, 209);
             this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(90, 49);
+            this.button7.Size = new System.Drawing.Size(118, 49);
             this.button7.TabIndex = 9;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Text = "START";
+            this.button7.UseVisualStyleBackColor = false;
             this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
             this.ClientSize = new System.Drawing.Size(496, 497);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label3);

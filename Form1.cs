@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Timers;
+
 
 namespace WinFormsApp1
 {
@@ -20,9 +22,11 @@ namespace WinFormsApp1
         int userScore = 0;
         int pcScore = 0;
         
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -37,13 +41,6 @@ namespace WinFormsApp1
                 label3.Text = "beraberlik";
                 label3.BackColor = Color.Yellow;
                 button6.BackColor = Color.Orange;
-                userScore++;
-                label1.Text = userScore.ToString();
-                pcScore++;
-                label2.Text = pcScore.ToString();
-
-
-
             }
             else if (deger == 2)
             {
@@ -68,6 +65,7 @@ namespace WinFormsApp1
             button4.BackColor = Color.White;
             button5.BackColor = Color.White;
             button6.BackColor = Color.White;
+
             Random random = new Random();
             int deger = random.Next(1, 4);
             if (deger == 1)
@@ -92,14 +90,8 @@ namespace WinFormsApp1
                 label3.Text = "beraberlik";
                 label3.BackColor = Color.Yellow;
                 button4.BackColor = Color.Orange;
-                pcScore++;
-                label2.Text = pcScore.ToString();
-                userScore++;
-                label1.Text = userScore.ToString();
             }
         }
-
-
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -122,10 +114,6 @@ namespace WinFormsApp1
                 label3.Text = "beraberlik";
                 label3.BackColor = Color.Yellow;
                 button5.BackColor = Color.Orange;
-                pcScore++;
-                label2.Text = pcScore.ToString();
-                userScore++;
-                label1.Text = userScore.ToString();
             }
             else if (deger == 3)
             {
@@ -138,12 +126,10 @@ namespace WinFormsApp1
         }
         private void button4_Click(object sender, EventArgs e)
         {
-
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-
         }
 
         private void button7_Click(object sender, EventArgs e)
@@ -152,10 +138,18 @@ namespace WinFormsApp1
             pcScore = 0;
             label1.Text = userScore.ToString();
             label2.Text = pcScore.ToString();
+            button1.BackColor = Color.White;
+            button2.BackColor = Color.White;
+            button3.BackColor = Color.White;
+            button4.BackColor = Color.White;
+            button5.BackColor = Color.White;
+            button6.BackColor = Color.White;
+            label3.BackColor = Color.White;
+
 
         }
     }
-        
-       
-    
+
+
+
 }

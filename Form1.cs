@@ -26,7 +26,6 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            label3.BackColor = Color.White;
 
         }
 
@@ -145,6 +144,8 @@ namespace WinFormsApp1
             button4.BackColor = Color.White;
             button5.BackColor = Color.White;
             button6.BackColor = Color.White;
+            label3.BackColor = Color.White;
+            label3.Text = "??";
 
 
         }

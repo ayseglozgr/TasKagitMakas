@@ -19,8 +19,7 @@ namespace WinFormsApp1
         }
         int userScore = 0;
         int pcScore = 0;
-        string text1 = "kazandınız";
-        string text2 = "kaybettiniz.";
+        
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -146,9 +145,15 @@ namespace WinFormsApp1
         {
 
         }
-        
 
-	}
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int x= Convert.ToInt32(pcScore);
+            int y= Convert.ToInt32(userScore);
+            x = 0;
+            y = 0;
+        }
+    }
         
        
     

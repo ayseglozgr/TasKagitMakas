@@ -13,3 +13,4 @@ C:\Users\Aysegul\source\repos\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.
 C:\Users\Aysegul\source\repos\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.dll
 C:\Users\Aysegul\source\repos\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.pdb
 C:\Users\Aysegul\source\repos\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.genruntimeconfig.cache
+C:\Users\Aysegul\source\repos\WinFormsApp1\obj\Debug\netcoreapp3.1\WinFormsApp1.Properties.Resources.resources

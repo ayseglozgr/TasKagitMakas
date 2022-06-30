@@ -148,10 +148,11 @@ namespace WinFormsApp1
 
         private void button7_Click(object sender, EventArgs e)
         {
-            int x= Convert.ToInt32(pcScore);
-            int y= Convert.ToInt32(userScore);
-            x = 0;
-            y = 0;
+            userScore = 0;
+            pcScore = 0;
+            label1.Text = userScore.ToString();
+            label2.Text = pcScore.ToString();
+
         }
     }
         

@@ -95,7 +95,7 @@ namespace WinFormsApp1
             this.button4.TabIndex = 5;
             this.button4.Text = "MAKAS";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+          
             // 
             // button5
             // 
@@ -127,39 +127,41 @@ namespace WinFormsApp1
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(309, 346);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(126, 37);
+            this.label1.Size = new System.Drawing.Size(131, 37);
             this.label1.TabIndex = 6;
-            this.label1.Text = "userScore";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.label1.Text = "user score";
+         
             // 
             // label2
             // 
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.Location = new System.Drawing.Point(309, 84);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 37);
+            this.label2.Size = new System.Drawing.Size(111, 37);
             this.label2.TabIndex = 7;
-            this.label2.Text = "pcScore";
+            this.label2.Text = "pc score";
             // 
             // label3
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(133, 215);
+            this.label3.Location = new System.Drawing.Point(124, 215);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(39, 37);
+            this.label3.Size = new System.Drawing.Size(30, 37);
             this.label3.TabIndex = 8;
-            this.label3.Text = "??";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            this.label3.Text = "0";
             // 
             // button7
             // 
@@ -178,7 +180,7 @@ namespace WinFormsApp1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.BackColor = System.Drawing.SystemColors.Menu;
             this.ClientSize = new System.Drawing.Size(496, 497);
             this.Controls.Add(this.button7);
             this.Controls.Add(this.label3);
@@ -194,7 +196,7 @@ namespace WinFormsApp1
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Taş-Kağıt-Makas";
-            this.Load += new System.EventHandler(this.Form1_Load);
+          
             this.ResumeLayout(false);
             this.PerformLayout();
 

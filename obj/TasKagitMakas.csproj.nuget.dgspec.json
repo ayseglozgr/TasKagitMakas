@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\WinFormsApp1.csproj": {}
+    "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\TasKagitMakas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\WinFormsApp1.csproj": {
+    "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\TasKagitMakas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\WinFormsApp1.csproj",
-        "projectName": "WinFormsApp1",
-        "projectPath": "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\WinFormsApp1.csproj",
+        "projectUniqueName": "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\TasKagitMakas.csproj",
+        "projectName": "TasKagitMakas",
+        "projectPath": "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\TasKagitMakas.csproj",
         "packagesPath": "C:\\Users\\Aysegul\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Aysegul\\Desktop\\projects\\tasKagitMakas\\obj\\",
         "projectStyle": "PackageReference",
